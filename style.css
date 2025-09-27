@@ -1,0 +1,126 @@
+.logo {
+    width: 30px;
+    height: 30px;
+}
+.jarak-pasarium {
+    margin-left: 5px;
+}
+.navbar {
+    box-shadow: 0 10px 10px white;
+}
+.button1 {
+    width: 150px;
+    height: 50px;
+    margin-top: -5px;
+}
+.isi-navbar {
+    margin-top: 4px;
+}
+.warna-hubungi {
+    color: white;
+    font-weight: bold;
+    padding-top: -5px;
+}
+
+.nav-link:hover {
+    color : #119da4 !important;
+    font-weight: bold;
+    border-bottom: 2px solid #119da4;
+    transition: all ease 300ms;
+}
+
+#hero {
+    margin-top: 100px;
+}
+
+#hero h1 {
+    font-size: 60px;
+}
+
+#hero img {
+    width: 100%;
+}
+
+#layanan {
+    margin-top: 100px;
+}
+ #layanan .card {
+    border:none;
+ }
+  #layanan .card-title {
+    color: white;
+    position:absolute;
+    bottom: 10px;
+  }
+
+  #layanan .card:hover {
+    box-shadow: 0 10px 10px white;
+    transform:scale(1.1);
+    transition: all ease 10px;
+  }
+
+.float {
+    float: left;
+}
+
+#profil{
+    margin-top: 100px;
+}
+
+#profil img {
+    width: 500px;
+}
+
+#profil h1 {
+    font-size: 60px;
+}
+
+#profil span {
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+#profil p {
+    width: 90%;
+}
+.gambar-profil {
+    margin-left: 80px;
+}
+.isi-portofolio {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    clear: left;
+}
+.text-portofolio {
+    text-transform: uppercase;
+}
+.card-portofolio {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.card {
+    margin-right: 20px;
+}
+
+#cta {
+    margin-top: 100px;
+}
+
+#cta .bg {
+    background-image: url(./img-icon/bg-cta.png);
+    background-size: cover;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#footer {
+    margin-top: 50px;
+    background-color: #119da4
+    color: white;
+}
